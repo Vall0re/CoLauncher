@@ -1,7 +1,7 @@
 {
-  "name": "helioslauncher",
+  "name": "CoLauncher",
   "version": "2.2.1",
-  "productName": "Helios Launcher",
+  "productName": "Curse Of Legend",
   "description": "Modded Minecraft Launcher",
   "author": "Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
@@ -46,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/Vall0re/CoLauncher.git"
   }
 }
