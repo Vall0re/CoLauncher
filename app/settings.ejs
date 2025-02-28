@@ -351,7 +351,43 @@
                 </div>
             </div>
         </div>
-        
+        <div id="settingsTabUpdate" class="settingsTab" style="display: none;">
+            <div class="settingsTabHeader">
+                <span class="settingsTabHeaderText"><%- lang('settings.launcherUpdatesHeaderText') %></span>
+                <span class="settingsTabHeaderDesc"><%- lang('settings.launcherUpdatesHeaderDesc') %></span>
+            </div>
+            <div id="settingsUpdateStatusContainer">
+                <div id="settingsUpdateStatusContent">
+                    <div id="settingsUpdateStatusHeadline">
+                        <span id="settingsUpdateTitle"><!-- You Are Running the Latest Version --></span>
+                    </div>
+                    <div id="settingsUpdateVersion">
+                        <div id="settingsUpdateVersionCheck">&#10003;</div>
+                        <div id="settingsUpdateVersionDetails">
+                            <span id="settingsUpdateVersionTitle"><%- lang('settings.stableRelease') %></span>
+                            <div id="settingsUpdateVersionLine">
+                                <span id="settingsUpdateVersionText"><%- lang('settings.versionText') %> </span>
+                                <span id="settingsUpdateVersionValue">0.0.1-alpha.18</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="settingsUpdateActionContainer">
+                        <button id="settingsUpdateActionButton"><%- lang('settings.checkForUpdates') %></button>
+                    </div>
+                </div>
+            </div>
+            <div class="settingsChangelogContainer">
+                <div class="settingsChangelogContent">
+                    <div class="settingsChangelogHeadline">
+                        <div class="settingsChangelogLabel"><%- lang('settings.whatsNew') %></div>
+                        <div class="settingsChangelogTitle"><%- lang('settings.updateReleaseNotes') %></div>
+                    </div>
+                    <div class="settingsChangelogText">
+                        <%- lang('settings.noReleaseNotes') %>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="./assets/js/scripts/settings.js"></script>
 </div>
