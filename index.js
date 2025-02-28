@@ -227,8 +227,8 @@ let win
 function createWindow() {
 
     win = new BrowserWindow({
-        width: 980,
-        height: 552,
+        width: 1080,
+        height: 720,
         icon: getPlatformIcon('SealCircle'),
         frame: false,
         webPreferences: {
@@ -236,7 +236,8 @@ function createWindow() {
             nodeIntegration: true,
             contextIsolation: false
         },
-        backgroundColor: '#171614'
+        backgroundColor: '#171614',
+        resizable: false
     })
     remoteMain.enable(win.webContents)
 
@@ -254,7 +255,7 @@ function createWindow() {
 
     win.removeMenu()
 
-    win.resizable = true
+    // win.resizable = true
 
     win.on('closed', () => {
         win = null
