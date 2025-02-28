@@ -16,5 +16,5 @@ supportLink = "https://github.com/dscalZi/HeliosLauncher/issues"
 
 [ejs.welcome]
 welcomeHeader = "Bienvenue sur Curse Of Legend !!"
-welcomeDescription = "Launcher de Curse Of Legend en cours de construction !!"
+welcomeDescription = "Launcher de Curse Of Legend en cours de construction"
 welcomeDescCTA = "You are just a few clicks away from Westeros."
