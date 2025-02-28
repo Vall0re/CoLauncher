@@ -78,13 +78,15 @@ body, button {
 /* Flexbox to wrap the main frame content. */
 #frameMain {
     display: flex;
-    height: 20px
+    height: 40px;
+    background-color: red;
 }
 
 /* Undraggable region on the left and right of the frame. */
 .frameResizableVert {
     width: 2px;
     -webkit-app-region: no-drag;
+    background-color: #8be88b;
 }
 
 /* Main frame content for windows. */
